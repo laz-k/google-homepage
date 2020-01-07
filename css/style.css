@@ -1,14 +1,18 @@
 body {
     padding: 0;
     margin: 0;
-    
+    background-color: gainsboro;
 }
 
 .container {
     display: grid;
-    grid-template-rows: 1fr 3fr 2fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 2fr 5fr 2fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    grid-template-areas:
+    "header header header"
+    "sidebar main aside"
+    "sidebar footer footer";
 }
 
 
@@ -35,7 +39,7 @@ img {
 }
 .search-box {
     width: 600px;
-    display: block;
+    
     justify-content: center;
     padding-left: 20px;
     border: 1px solid white;
@@ -55,6 +59,7 @@ img {
     width: 500px;
     height: 35px;
     border: 0;
+    background-color:transparent;
 }
 /*.web-search {
     display: flex;
