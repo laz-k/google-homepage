@@ -9,29 +9,13 @@ html {
 
 .container {
     display: grid;
-<<<<<<< HEAD
-    height: 100vh;
+    
     grid-gap: 20px;
     grid-area: "navbar navbar navbar navbar"
     ""
     grid-template-columns: repeat(4 1fr);
     grid-template-rows: repeat(7 1fr);
     
-=======
-    width: 100%;
-    height: 100%;
-    grid-template-areas: "about store blank gmail images apps sign-in"
-        "google-logo google-logo google-logo google-logo google-logo google-logo google-logo"
-        "search-box search-box search-box search-box search-box search-box search-box"
-        "web-search web-search web-search web-search web-search web-search web-search"
-        "google-search google-search google-search blank-1 feeling-lucky feeling-lucky feeling-lucky"
-        "small-logo privacy-reminder privacy-reminder privacy-reminder privacy-reminder remind-me-later review"
-        "country country country country country country country"
-        "advertising business how-search-works blank-footer privacy terms settings";
-    grid-template-columns: repeat(7 1fr);
-    grid-template-rows: 30px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-
->>>>>>> 63faa61a2b9fce4b60e638d9d565e9fb7396654c
 }
 
 .container>div {
@@ -64,10 +48,6 @@ html {
 }
 
 .sign-in {
-<<<<<<< HEAD
-
-}
-=======
     grid-area: sign-in;
 }
 
@@ -158,4 +138,3 @@ html {
 .settings {
     grid-area: settings;
 }
->>>>>>> 63faa61a2b9fce4b60e638d9d565e9fb7396654c
