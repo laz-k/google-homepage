@@ -5,13 +5,6 @@ html {
   font-size: 14px;
 }
 
-/* header {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 1fr 1fr 2fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "navbar navbar navbar"
-} */
 
 .navbar {
   display: flex;
@@ -41,9 +34,7 @@ html {
   width: 15rem;
 }
 
-.apps {
-  
-}
+
 
 .google-logo {
   grid-area: google-logo;
