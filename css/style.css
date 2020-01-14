@@ -36,18 +36,14 @@ html {
 }
 
 .sign-in {
-  display: inline-block;
   font-weight: bold;
   font-size: 1em;
   background-color: #4285f4;
-  width: 80px;
-  height: 30px;
+  padding: 5px 15px;
   border-radius: 3px;
 }
 
 .sign-in a {
-  display: inline;
-  text-align: center;
   color: white;
 }
 
