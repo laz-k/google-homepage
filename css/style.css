@@ -9,6 +9,10 @@ html {
 .navbar {
   display: flex;
   overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
   justify-content: space-between;
   align-items: center;
   height: 50px;
@@ -42,11 +46,11 @@ html {
 
 .nav-right a:hover {
   text-decoration: underline;
-  
+
 }
 
 .apps {
-  color: gray;
+  color: rgb(100, 100, 100);
   padding-top: 5px;
 }
 
@@ -63,7 +67,7 @@ html {
   padding: 5px 15px;
   border-radius: 3px;
   border: 1px solid #4285f4;
-  
+
 }
 
 .sign-in a {
@@ -83,22 +87,27 @@ html {
 
 .search-box {
   display: flex;
-  width: 582px;
+  width: 482px;
   justify-content: flex-start;
   align-items: center;
   border-radius: 25px;
   height: 44px;
-  box-shadow: 0px 1px 6px 0 rgba(32,33,36,0.28);
+  box-shadow: 0px 1px 6px 0 rgba(32, 33, 36, 0.28);
   margin: 30px auto 30px auto;
   padding-left: 20px;
 }
 
 .web-search {
   width: 50%;
-  font-size: 1rem;
-  padding-left: 10px;
+  font-size: 1.1rem;
+  padding-left: 15px;
   border: none;
+  line-height: 2rem;
 }
+
+.web-search:focus {
+  outline: none;
+  }
 
 .buttons {
   display: flex;
@@ -107,7 +116,7 @@ html {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
-  
+
 }
 
 .google-search {
@@ -116,18 +125,18 @@ html {
   height: 3rem;
   border-radius: 5px;
   border: none;
+  font-size: 1rem;
   text-align: center;
 }
 
 .google-search:hover {
   border: 1px solid gainsboro;
   box-shadow: 0 1px 3px 0 gainsboro;
-  }
+}
 
-.google-search a{
-    text-decoration: none;
-    font-size: 1rem;
-    color: black;
+.google-search a {
+  text-decoration: none;
+  color: black;
 }
 
 .feeling-lucky {
@@ -145,10 +154,10 @@ html {
   box-shadow: 0 1px 3px 0 gainsboro;
 }
 
-.feeling-lucky a{
-    text-decoration: none;
-    font-size: 1rem;
-    color: black;
+.feeling-lucky a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
 }
 
 footer {
@@ -159,13 +168,17 @@ footer {
   background-color: #f2f2f2;
   height: 50px;
   padding: 0 10px 0 10px;
-  
+
 }
 
 footer a {
   text-decoration: none;
   color: black;
   padding: 10px 10px 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .footer-left {
