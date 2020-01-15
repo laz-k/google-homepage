@@ -2,67 +2,65 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Test</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
-<main>
 
-    <body>
-        <!--
-        <div class="container">
-            <div class="about"><a href="#">About</a></div>
-            <div class="store"><a href="#">Store</a></div>
-            <div class="blank"><a href="#"></a></div>
-            <div class="gmail"><a href="#">Gmail</a></div>
-            <div class="images"><a href="#">Images</a></div>
-            <div class="apps"><a href="#"><i class="material-icons">apps</i></a></div>
-            <div class="sign-in"><a href="#">Sign in</a></div>
 
-            <div class="google-logo">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                    alt="The Google logo">
-            </div>
-            <div class="search-box">
-                <i class="fa fa-search searchIcon"></i>
-                <input class="web-search" type="text" name="web-search" aria-label="Search the web"
-                    placeholder="Search Google or type a URL">
-            </div>
-            <div class="button-1" </div> <div class="button-2" </div> 
-            -->
-            <div class="container">
-                <div class="about">About</div>
-                <div class="store">Store</div>
-                <div class="blank"></div>
-                <div class="gmail">Gmail</div>
-                <div class="images">Images</div>
-                <div class="apps"><a href="#"><i class="material-icons">apps</i></a></div>
-                <div class="sign-in">Sign-in</div>
-                <div class="google-logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                    alt="The Google logo"></div>
-                <div class="search-box"><i class="fa fa-search searchIcon"></i>
-                    <input class="web-search" type="text" name="web-search" aria-label="Search the web"
-                        placeholder="Search Google or type a URL"></div>
-                <div class="google-search">Google Search</div>
-                <div class="blank-1"></div>
-                <div class="feeling-lucky">I'm Feeling Lucky</div>
-                <div class="small-logo">small-logo</div>
-                <div class="privacy-reminder">Privacy Reminder</div>
-                <div class="remind-me-later">Remind Me Later</div>
-                <div class="review">Review Now</div>
-                <div class="country">Country</div>
-                <div class="advertising">Advertising</div>
-                <div class="business">Business</div>
-                <div class="how-search-works">How Search Works</div>
-                <div class="blank-footer">blank-footer</div>
-                <div class="privacy">Privacy</div>
-                <div class="terms">Terms</div>
-                <div class="settings">Settings</div>
-              </div>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</a>
+        <a
+          href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a>
+      </div>
+      <div class="nav-right">
+        <a
+          href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Dwm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Gmail</a>
+        <a href="https://www.google.co.uk/imghp?hl=en&tab=wi&ogbl">Images</a>
+        <a href="https://about.google/intl/en/products/?tab=wh"><i class="material-icons apps">apps</i></a>
+        <button class="sign-in"><a
+            href="https://accounts.google.com/ServiceLogin/signinchooser?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign
+            in</a></button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="google-logo">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        alt="The Google logo">
+    </div>
+    <form method="GET" action="http://www.google.com/search">
+      <div class="search-box">
+        <i class="fa fa-search searchIcon"></i>
+        <input class="web-search" type="text" name="q" aria-label="Search the web"
+          placeholder="Search Google or type a URL" />
+      </div>
+      <div class="buttons">
+        <button class="google-search" type="submit" value="search">Google Search</a></button>
+        <button class="feeling-lucky"><a href="https://www.google.com/doodles/">I'm Feeling Lucky</a></button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <div class="footer-left">
+      <a
+        href="https://ads.google.com/intl/en_uk/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000019-0000000002&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+      <a
+        href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a>
+      <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
+    </div>
+    <div class="footer-right">
+      <a href="https://policies.google.com/privacy?fg=1">Privacy</a>
+      <a href="https://policies.google.com/terms?fg=1">Terms</a>
+      <a href="https://www.google.com/preferences?hl=en">Settings</a>
+    </div>
+  </footer>
+</body>
 
-        </body> 
-</main> 
 
 </html>
